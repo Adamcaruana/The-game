@@ -1,0 +1,215 @@
+Mono path[0] = 'C:/Users/adam/Desktop/game/game_Data/Managed'
+Mono path[1] = 'C:/Users/adam/Desktop/game/game_Data/Mono'
+Mono config path = 'C:/Users/adam/Desktop/game/game_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/adam/Desktop/game/game_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55336
+Multi-casting "[IP] 192.168.0.13 [Port] 55336 [Flags] 3 [Guid] 1743145987 [EditorId] 2745834107 [Version] 1048832 [Id] WindowsPlayer(Niccu) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.0.13:55336]...
+PlayerConnection accepted from [192.168.0.13] handle:0x94
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56987
+PlayerConnection already initialized - listening to [192.168.0.13:55336]
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 630M          (ID=0xde9)
+    Vendor:   NVIDIA
+    VRAM:     973 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\adam\Desktop\game\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\adam\Desktop\game\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\adam\Desktop\game\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\adam\Desktop\game\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\adam\Desktop\game\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\adam\Desktop\game\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\adam\Desktop\game\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\adam\Desktop\game\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.054 seconds
+Platform assembly: C:\Users\adam\Desktop\game\game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\adam\Desktop\game\game_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.663003 ms
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+StartButton:OnMouseDown2() (at C:\Users\adam\Desktop\3Dgame\Adam Caruana\Assets\Script\StartButton.cs:16)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:144)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:621)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:756)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:529)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:428)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:416)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:190)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
+ 
+(Filename: C:/Users/adam/Desktop/3Dgame/Adam Caruana/Assets/Script/StartButton.cs Line: 16)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.248239 ms
+System memory in use before: 128.0 MB.
+System memory in use after: 128.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 274.
+Total: 0.305843 ms (FindLiveObjects: 0.020115 ms CreateObjectMapping: 0.018473 ms MarkObjects: 0.249601 ms  DeleteObjects: 0.013957 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.718834 ms
+System memory in use before: 94.6 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 235.
+Total: 0.311180 ms (FindLiveObjects: 0.016010 ms CreateObjectMapping: 0.013136 ms MarkObjects: 0.228664 ms  DeleteObjects: 0.052547 ms)
+
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+playagianButton:OnMouseDown() (at C:\Users\adam\Desktop\3Dgame\Adam Caruana\Assets\Script\playagianButton.cs:7)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: C:/Users/adam/Desktop/3Dgame/Adam Caruana/Assets/Script/playagianButton.cs Line: 7)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.532044 ms
+System memory in use before: 52.7 MB.
+System memory in use after: 52.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 287.
+Total: 0.432286 ms (FindLiveObjects: 0.019294 ms CreateObjectMapping: 0.013136 ms MarkObjects: 0.282853 ms  DeleteObjects: 0.116179 ms)
+
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+StartButton:OnMouseDown3() (at C:\Users\adam\Desktop\3Dgame\Adam Caruana\Assets\Script\StartButton.cs:23)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:144)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:621)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:756)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:529)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:428)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:416)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:190)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
+ 
+(Filename: C:/Users/adam/Desktop/3Dgame/Adam Caruana/Assets/Script/StartButton.cs Line: 23)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.656434 ms
+System memory in use before: 90.5 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 310.
+Total: 0.311180 ms (FindLiveObjects: 0.021757 ms CreateObjectMapping: 0.014368 ms MarkObjects: 0.260685 ms  DeleteObjects: 0.013547 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.703645 ms
+System memory in use before: 57.4 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 235.
+Total: 0.377685 ms (FindLiveObjects: 0.020115 ms CreateObjectMapping: 0.014779 ms MarkObjects: 0.239337 ms  DeleteObjects: 0.102221 ms)
+
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+playagianButton:OnMouseDown() (at C:\Users\adam\Desktop\3Dgame\Adam Caruana\Assets\Script\playagianButton.cs:7)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: C:/Users/adam/Desktop/3Dgame/Adam Caruana/Assets/Script/playagianButton.cs Line: 7)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.518497 ms
+System memory in use before: 52.8 MB.
+System memory in use after: 52.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 287.
+Total: 0.445012 ms (FindLiveObjects: 0.018063 ms CreateObjectMapping: 0.013136 ms MarkObjects: 0.296401 ms  DeleteObjects: 0.116179 ms)
+
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+StartButton:OnMouseDown1() (at C:\Users\adam\Desktop\3Dgame\Adam Caruana\Assets\Script\StartButton.cs:9)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:144)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:621)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:756)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:529)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:428)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:416)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:190)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
+ 
+(Filename: C:/Users/adam/Desktop/3Dgame/Adam Caruana/Assets/Script/StartButton.cs Line: 9)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.746340 ms
+System memory in use before: 86.2 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 318.
+Total: 0.271359 ms (FindLiveObjects: 0.016421 ms CreateObjectMapping: 0.013547 ms MarkObjects: 0.229074 ms  DeleteObjects: 0.011494 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.704055 ms
+System memory in use before: 52.8 MB.
+System memory in use after: 52.8 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 235.
+Total: 0.358391 ms (FindLiveObjects: 0.020526 ms CreateObjectMapping: 0.014779 ms MarkObjects: 0.264380 ms  DeleteObjects: 0.057063 ms)
+
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+playagianButton:OnMouseDown() (at C:\Users\adam\Desktop\3Dgame\Adam Caruana\Assets\Script\playagianButton.cs:7)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: C:/Users/adam/Desktop/3Dgame/Adam Caruana/Assets/Script/playagianButton.cs Line: 7)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.512339 ms
+System memory in use before: 52.8 MB.
+System memory in use after: 52.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 287.
+Total: 0.414222 ms (FindLiveObjects: 0.015189 ms CreateObjectMapping: 0.012315 ms MarkObjects: 0.262738 ms  DeleteObjects: 0.122337 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1d70 -> priority: 1 
+Waiting for finish
